@@ -48,13 +48,29 @@ public class MathApp {
 
         System.out.println("The distance between the points is: "+ differenceSquareRoot);
 
-
-
         //Question 6
+        double preNumber = -3.8;
+        double absoluteValue = Math.abs(preNumber);
+
+        System.out.println("The absolute value is " + absoluteValue);
 
         //Question 7
+        double randomNumber = Math.random();
+        System.out.println("Random number between 0 and 1: " + randomNumber);
 
         //Question 8
+
+        int dayCount = 24;
+        int hourCount = dayCount * 24;
+        int minuteCount = hourCount * 60;
+        long msCount = minuteCount * 60000L;
+
+        System.out.println("There are " + minuteCount + " minutes in 24 days.");
+        System.out.println("There are " + msCount + " milliseconds in 24 days.");
+
+
+
+
 
 
 
