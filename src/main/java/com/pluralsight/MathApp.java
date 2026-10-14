@@ -17,6 +17,47 @@ public class MathApp {
         System.out.println("The lowest price is " + lowestPrice);
 
         //Question 3
+        double circleRadius = 7.25;
+        double circleArea = Math.PI * circleRadius * circleRadius;
+
+        System.out.println("The area of the circle is " + circleArea);
+
+        //Question 4
+        double preSquareRoot = 5.0;
+        double squareRoot = Math.sqrt(preSquareRoot);
+
+        System.out.println("The square root is " + squareRoot);
+
+
+        //Question 5
+        double x1 = 5;
+        double y1 = 10;
+
+        double x2 = 85;
+        double y2 = 50;
+
+        double xDifference = (x2 - x1);
+        double yDifference = (y2 - y1);
+
+        double xDiffSquared = xDifference * xDifference;
+        double yDiffSquared = yDifference * yDifference;
+
+        double xandYdiffAdded = xDiffSquared + yDiffSquared;
+
+        double differenceSquareRoot = Math.sqrt(xandYdiffAdded);
+
+        System.out.println("The distance between the points is: "+ differenceSquareRoot);
+
+
+
+        //Question 6
+
+        //Question 7
+
+        //Question 8
+
+
+
 
 
     }
